@@ -1,0 +1,26 @@
+.menu li > :not(ul):not(.menu-title):not(details):active,
+.menu li > :not(ul):not(.menu-title):not(details).active,
+.menu li > details > summary:active {
+  color: #02dc93;
+  background-color: transparent; /* Set the background color to transparent */
+}
+
+nav ul li a.active {
+  /* border-radius: 0%;
+  border-bottom: 3px solid #02dc93; */
+  color: #02dc93;
+  text-decoration: underline;
+  text-underline-offset: 44px;
+  transition: ease-in-out;
+  z-index: 1;
+}
+nav ul li a:hover {
+  color: #02dc93;
+
+}
+@media (max-width: 1023px) {
+  nav ul li a.active {
+    text-underline-offset: 10px; /* Offset for smaller screens */
+    
+  }
+}
