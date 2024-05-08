@@ -3,12 +3,12 @@ import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#080E10] bg-[url('./blurfooter.png')]  bg-no-repeat bg-cover bg-center  p-5 md:p-20 border-t border-[#3a3e40]">
-      <footer>
-        <div className="lg:flex gap-20 align-middle">
-          <div >
-            <div className="   text-xl text-[#848788]">
-            <img className="w-48 pb-10" src={logo} />
+    <div className="bg-[#080E10] bg-[url('./blurfooter.png')]  bg-no-repeat bg-cover bg-center xl:px-44  p-5 xl:p-20 md:pt-10 border-t border-[#3a3e40] px-4">
+      <footer className="pt-10">
+        <div className="xl:flex gap-20 align-middle">
+          <div>
+            <div className=" text-xl text-[#848788]">
+              <img className="w-48 pb-10 " src={logo} />
               <p>
                 Experience non-stop excitement! <br />
                 <div className="pt-1">
@@ -30,7 +30,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="pt-8 lg:pt-0 lg:ml-20">
+          <div className="pt-8 xl:pt-0 xl:ml-20">
             <h6 className="text-white text-xl tracking-[5px] pb-10">COMPANY</h6>
             <nav className=" text-[#848788] space-y-6 text-xl">
               <div>
@@ -50,7 +50,7 @@ const Footer = () => {
               </div>
             </nav>
           </div>
-          <div className="pt-8 lg:pt-0 lg:ml-40">
+          <div className="pt-8 xl:pt-0 xl:ml-40">
             <h6 className="text-white text-xl tracking-[5px] pb-10">
               Helpful Links
             </h6>
@@ -66,7 +66,7 @@ const Footer = () => {
               </div>
             </nav>
           </div>
-          <div className="pt-8 lg:pt-0 lg:ml-40">
+          <div className="pt-8 xl:pt-0 xl:ml-40">
             <h6 className="text-white text-xl tracking-[5px] pb-10">
               Follow Us
             </h6>
@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="pt-14 lg:pt-28 text-lg text-[#848788]">
+      <div className="pt-14 xl:pt-28 text-lg text-[#848788]">
         <p>2023 &#169; Dezig IT | All rights reserved</p>
       </div>
     </div>
